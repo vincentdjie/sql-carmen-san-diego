@@ -33,7 +33,7 @@ CREATE TABLE country (
 
 CREATE TABLE countrylanguage (
     countrycode character(3) NOT NULL,
-    "language" text NOT NULL,
+    language text NOT NULL,
     isofficial boolean NOT NULL,
     percentage real NOT NULL
 );

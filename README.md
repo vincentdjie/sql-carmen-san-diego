@@ -6,13 +6,13 @@
 
 #### Where In The World Is Carmen Sandiego?
 
-We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and World-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands /queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
+We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and World-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands / queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
 
 ## Exercise
 
 #### Requirements
 
-- Fork and clone the in the [starter-code](starter-code/world.sql)
+- Fork and clone
 - Use the clues.sql file as your "answer sheet"
 - From the command line, let's create a new database called `carmen` and populate it with the SQL found in `world.sql`
 
@@ -85,14 +85,14 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 
 #### Starter code
 
-Again, be sure to grab the .sql file from the [starter-code](starter-code/world.sql) and run it in your SQLite terminal using the commands above.
+Again, be sure to run the .sql file from the [starter-code](starter-code/world.sql) using the commands above.
 
 #### Deliverable
 
 Use the clues.sql file to write in the SQL queries that correspond with each clue and tell us where she's heading at the bottom:
 
 <p align="center">
-  <img src ="http://s3.postimg.org/8386vdt43/Screen_Shot_2015_07_08_at_8_11_25_PM.png">
+  <img src ="example.png">
 </p>
 
 Be sure to submit a pull request with your SQL queries and add a comment that includes your answer to where Carmen is!
