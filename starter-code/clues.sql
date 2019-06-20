@@ -1,7 +1,7 @@
 -- Clue #1: We recently got word that someone fitting Carmen Sandiego's description has been
 -- traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed,
 -- so find the least populated country in Southern Europe, and we'll start looking for her there.
-SELECT name, population, region FROM country WHERE region = 'Southern Europe' ORDER BY population ASC;
+SELECT name, population, region FROM country WHERE region = 'Southern Europe' ORDER BY population ASC limit 1;
 -- VAT
 
 -- Clue #2: Now that we're here, we have insight that Carmen was seen attending language classes in
@@ -19,6 +19,7 @@ SELECT countrycode from countrylanguage WHERE language = 'Italian';
 SELECT code from country WHERE region = 'Southern Europe';
 SELECT language from countrylanguage WHERE countrycode = 'SMR';
 -- ITA SMR VAT; SMR is the answer.
+SELECT * from countrylanguage where language = 'Italian' and  percentage = 100;
 
 -- Clue #4: We're booking the first flight out – maybe we've actually got a chance to catch her this time.
  -- There are only two cities she could be flying to in the country. One is named the same as the country – that
@@ -33,7 +34,6 @@ SELECT name from city where countrycode = 'SMR';
 -- parts of the globe! She's headed to South America as we speak; go find a city whose name is like the one we were
 -- headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
 SELECT * FROM city where name like 'Ser%';
-
 --Serra
 
 
@@ -64,4 +64,4 @@ Select name from city where population = '91084';
 
 
 
--- She's in ____________________________!
+-- She's in ________Santa Monica____________________!
