@@ -56,8 +56,8 @@ Select countrycode from city where name ='Serra'
 -- I need a little more sunshine with my slice of life.
 -- So I'm off to add one to the population I find
 -- In a city of ninety-one thousand and now, eighty five.
-Select name from city where population = '91000';
--- Najran, Krasnogorsk
+Select name from city where population = '91084';
+-- Santa monica
 
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
